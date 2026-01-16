@@ -50,4 +50,4 @@ Puppy Picture Gallery<br>
 
 <script></script>
 
-<style src="./css/PersonalProfile.css">
+<style src="./css/PersonalProfile.css"></style>
