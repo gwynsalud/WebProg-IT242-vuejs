@@ -1,5 +1,5 @@
 <template>
-  <div class="papaya">
+  <div class="pizza">
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
   </div>
@@ -22,6 +22,6 @@ export default {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: lightgreen;
+    background-color: red;
   }
 </style>
