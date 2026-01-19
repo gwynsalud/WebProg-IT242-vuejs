@@ -460,7 +460,7 @@
           <div class="exp-header d-flex justify-content-between align-items-center">
             <div>
               <span class="exp-rank">ROLE: DEVELOPER</span>
-              <h3 class="company-guild">CAMPUS VISITOR REGISTRATION SYSTEM</h4>
+              <h3 class="company-guild">CAMPUS VISITOR REGISTRATION SYSTEM</h3>
             </div>
             <div class="exp-date text-end">
               <span class="badge-date">SEPT 2025 - NOV 2025</span>
@@ -820,7 +820,7 @@
 
         <div class="col-md-5">
           <div class="ledger-box">
-            <h3 class="stat-header mb-3">RECENT VISITORS</h4>
+            <h3 class="stat-header mb-3">RECENT VISITORS</h3>
             <div class="visitor-list">
               <div v-for="(entry, index) in entries" :key="index" class="visitor-card mb-3 p-2 border-bottom border-secondary">
                 <div class="d-flex justify-content-between">
