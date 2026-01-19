@@ -1,5 +1,5 @@
 <template> 
-
+<h1 style="color: red !important; background: yellow;">TESTING IF PROFILE RENDERS</h1>
   <div id="profile-container">
   <button class="pause-btn" v-on:click="togglePause">
     <span v-if="!isPaused">〓 PAUSE</span>
@@ -863,5 +863,4 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import "./css/style.css";
 
-/* Add your .fade-enter-active transitions here too! */
 </style>
