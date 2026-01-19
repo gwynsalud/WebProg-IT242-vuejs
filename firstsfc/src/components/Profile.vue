@@ -69,28 +69,28 @@
           <div class="character-grid mt-3">
             <div class="card character-profile unlocked active">
               <div class="profile-img-wrapper">
-                <img src="assets/images/character1.png" alt="Character 1">
+                <img src="./assets/images/character1.png" alt="Character 1">
               </div>
               <div class="rpg-card-label">Gwen</div>
             </div>
 
             <div class="card character-profile locked">
               <div class="profile-img-wrapper">
-                <img src="assets/images/character_locked.png" alt="Locked">
+                <img src="./assets/images/character_locked.png" alt="Locked">
               </div>
               <div class="rpg-card-label">???</div>
             </div>
 
             <div class="card character-profile locked">
               <div class="profile-img-wrapper">
-                <img src="assets/images/character_locked.png" alt="Locked">
+                <img src="./assets/images/character_locked.png" alt="Locked">
               </div>
               <div class="rpg-card-label">???</div>
             </div>
 
             <div class="card character-profile locked">
               <div class="profile-img-wrapper">
-                <img src="assets/images/character_locked.png" alt="Locked">
+                <img src="./assets/images/character_locked.png" alt="Locked">
               </div>
               <div class="rpg-card-label">???</div>
             </div>
@@ -103,7 +103,7 @@
             <div class="d-flex flex-column flex-xl-row align-items-center justify-content-center gap-4">
               
               <div class="character-preview-window">
-                <img src="assets/images/character1_fullbody.png" alt="Character body" class="img-fluid character-body">
+                <img src="./assets/images/character1_fullbody.png" alt="Character body" class="img-fluid character-body">
                 <div class="shadow-oval"></div> 
               </div>
 
@@ -173,7 +173,7 @@
         
         <div class="profile-group d-flex align-items-start gap-3 flex-grow-1">
           <div class="portrait-box">
-            <img src="assets/images/character1_portrait.jpg" alt="Portrait" class="pixel-portrait">
+            <img src="./assets/images/character1_portrait.jpg" alt="Portrait" class="pixel-portrait">
           </div>
 
           <div class="flex-grow-1 d-flex flex-column gap-3">
@@ -197,17 +197,17 @@
               
               <div class="d-flex gap-2">
                 <div class="potion-wrapper" title="Buff: +15 Speed">
-                  <img src="assets/icons/potion_red.png" alt="Speed Potion" class="potion-icon">
+                  <img src="./assets/icons/potion_red.png" alt="Speed Potion" class="potion-icon">
                   <span class="potion-name">SPD</span>
                 </div>
 
                 <div class="potion-wrapper" title="Buff: +20 Power">
-                  <img src="assets/icons/potion_blue.png" alt="Power Potion" class="potion-icon">
+                  <img src="./assets/icons/potion_blue.png" alt="Power Potion" class="potion-icon">
                   <span class="potion-name">PWR</span>
                 </div>
 
                 <div class="potion-wrapper" title="Biff: +10 Intel">
-                  <img src="assets/icons/potion_green.png" alt="Intel Potion" class="potion-icon">
+                  <img src="./assets/icons/potion_green.png" alt="Intel Potion" class="potion-icon">
                   <span class="potion-name">INT</span>
                 </div>
               </div>
@@ -221,16 +221,16 @@
           
           <div class="inventory-grid">
             <a href="mailto:gcsalud@student.apc.edu.ph" class="inventory-slot" title="EMAIL">
-              <img src="assets/icons/mail.png" alt="Email" class="slot-image">
+              <img src="./assets/icons/mail.png" alt="Email" class="slot-image">
             </a>
             <a href="https://linkedin.com/in/gwyneth-salud" class="inventory-slot" title="LINKEDIN">
-              <img src="assets/icons/linkedin.png" alt="LinkedIn" class="slot-image">
+              <img src="./assets/icons/linkedin.png" alt="LinkedIn" class="slot-image">
             </a>
             <a href="https://github.com/gwynsalud" class="inventory-slot" title="GITHUB">
-              <img src="assets/icons/github.png" alt="Github" class="slot-image">
+              <img src="./assets/icons/github.png" alt="Github" class="slot-image">
             </a>
             <a href="#" class="inventory-slot" title="RESUME">
-              <img src="assets/icons/resume.png" alt="Resume" class="slot-image">
+              <img src="./assets/icons/resume.png" alt="Resume" class="slot-image">
             </a>
           </div>
 
@@ -299,7 +299,7 @@
 
           <div class="node-center">
             <div class="relic-circle active-glow">
-              <img src="assets/icons/pasci_logo_pixel.png" alt="PCNatSciHS Logo" class="node-icon">
+              <img src="./assets/icons/pasci_logo_pixel.png" alt="PCNatSciHS Logo" class="node-icon">
             </div>
           </div>
           <div class="node-spacer"></div>
@@ -309,7 +309,7 @@
           <div class="node-spacer"></div>
           <div class="node-center">
             <div class="relic-circle">
-              <img src="assets/icons/apc_logo_pixel.png" alt="APC Logo" class="node-icon">
+              <img src="./assets/icons/apc_logo_pixel.png" alt="APC Logo" class="node-icon">
             </div>
           </div>
 
@@ -410,21 +410,21 @@
             <div class="skill-grid">
               <div class="skill-item" data-skill="HTML" data-mastery="Challenger">
                 <div class="skill-icon-box">
-                  <img src="assets/icons/html.png" alt="HTML">
+                  <img src="./assets/icons/html.png" alt="HTML">
                 </div>
                 <span class="skill-label">HTML</span>
               </div>
 
               <div class="skill-item" data-skill="CSS" data-mastery="Master">
                 <div class="skill-icon-box">
-                  <img src="assets/icons/css.png" alt="CSS">
+                  <img src="./assets/icons/css.png" alt="CSS">
                 </div>
                 <span class="skill-label">CSS</span>
               </div>
 
               <div class="skill-item" data-skill="JavaScript" data-mastery="Amateur">
                 <div class="skill-icon-box">
-                  <img src="assets/icons/js.png" alt="JavaScript">
+                  <img src="./assets/icons/js.png" alt="JavaScript">
                 </div>
                 <span class="skill-label">JavaScript</span>
               </div>
@@ -708,7 +708,7 @@
         <div class="gallery-grid">
           <div class="memory-shard">
             <div class="shard-frame">
-              <img src="assets/images/gizmo.png" alt="Memory 1: Gizmo">
+              <img src="./assets/images/gizmo.png" alt="Memory 1: Gizmo">
                 <div class="shard-glitch"></div>
             </div>
             <div class="shard-caption">My Childhood Dog</div>
@@ -716,14 +716,14 @@
 
           <div class="memory-shard">
             <div class="shard-frame">
-              <img src="assets/images/yappie.png" alt="Memory 2: Yappie">
+              <img src="./assets/images/yappie.png" alt="Memory 2: Yappie">
             </div>
             <div class="shard-caption">The One Who Likes Eating Hair</div>
           </div>
 
           <div class="memory-shard">
             <div class="shard-frame">
-              <img src="assets/images/cypher.png" alt="Memory 3: Cypher">
+              <img src="./assets/images/cypher.png" alt="Memory 3: Cypher">
                 <div class="shard-glitch"></div>
             </div>
             <div class="shard-caption">One of My Favorite Angels</div>
@@ -731,14 +731,14 @@
 
           <div class="memory-shard">
             <div class="shard-frame">
-              <img src="assets/images/tsuna.png" alt="Memory 4: Tsuna">
+              <img src="./assets/images/tsuna.png" alt="Memory 4: Tsuna">
             </div>
             <div class="shard-caption">The One Who is a Snob</div>
           </div>
 
           <div class="memory-shard">
             <div class="shard-frame">
-              <img src="assets/images/pochacco.png" alt="Memory 5: Pochacco">
+              <img src="./assets/images/pochacco.png" alt="Memory 5: Pochacco">
                 <div class="shard-glitch"></div>
             </div>
             <div class="shard-caption">My Favorite Sanrio Character</div>
@@ -746,7 +746,7 @@
 
           <div class="memory-shard">
             <div class="shard-frame">
-              <img src="assets/images/jiji.png" alt="Memory 6: Jiji">
+              <img src="./assets/images/jiji.png" alt="Memory 6: Jiji">
                 <div class="shard-glitch"></div>
             </div>
             <div class="shard-caption">My Favorite Ghibli Character</div>
@@ -754,14 +754,14 @@
 
           <div class="memory-shard">
             <div class="shard-frame">
-              <img src="assets/images/sylveon.png" alt="Memory 7">
+              <img src="./assets/images/sylveon.png" alt="Memory 7">
             </div>
             <div class="shard-caption">My Favorite Pokemon</div>
           </div>
 
           <div class="memory-shard">
             <div class="shard-frame">
-              <img src="assets/images/artemis.png" alt="Memory 8">
+              <img src="./assets/images/artemis.png" alt="Memory 8">
                 <div class="shard-glitch"></div>
             </div>
             <div class="shard-caption">My In-Game Name inspiration</div>
