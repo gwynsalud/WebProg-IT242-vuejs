@@ -1,0 +1,53 @@
+<template>
+<head>
+    <title>Gwen's Profile</title>
+</head>
+
+<body>
+    
+<h1>Personal Profile Web Page</h1>
+
+<p> 
+About Me<br>
+Name: Gwyneth Salud<br>
+Nickname: Gwen<br>
+</p>
+
+<div class="flex-container">
+  <div class="flex-item">
+    Education / Achievements<br>
+    Course: Bachelor of Science in Information Technology<br>
+    IT Experience:<br>
+    Programming Languages - Python, Java, HTML, and CSS<br>
+    Development Platform - OutSystems<br>
+    Gaming - Mobile and PC<br>
+  </div>
+  
+  <div class="flex-item">
+    Hobbies & Interests: <br>
+    Crochet, Puzzles, Gaming, and Watching Movies<br>
+    Hobby Gallery<br>
+    <div class="gallery"> 
+      <img src="https://cdn.morningchores.com/wp-content/uploads/2023/01/knitting-vs-crocheting.jpg" alt="Crochet" width="100" height="100">
+      <img src="https://cdn11.bigcommerce.com/s-360jkouzn1/images/stencil/1280x1280/products/51681/379392/rokr-classic-printing-press-wooden-3d-puzzle-model-kit__51035.1710420319.png" alt="Puzzle" width="100" height="100">
+      <img src="https://caitlinmariedesign.com/wp-content/uploads/2025/02/cozy-gaming-desk-setup-aesthetic-6836.jpg" alt="Gaming" width="100" height="100">
+    </div>
+  </div>
+
+  <div class="flex-item">Goals In Life / Dream: <br>
+    My main goal in life and dream is to live comfortably (physically, emotionally, mentally, and financially).<br><br>
+Puppy Picture Gallery<br>
+    <div class="gallery"> 
+      <img src="https://i.redd.it/3gasngpgajwa1.jpg" alt="Cute Dog" width="200" height="250">
+      <img src="https://i.pinimg.com/736x/b9/a1/9d/b9a19deccd6b027daa98b3c494683a05.jpg" alt="Cute Puppy" width="200" height="250">
+    </div>
+  </div>
+</div>
+
+</body>
+
+</template>
+
+<script></script>
+
+<style src="./css/PersonalProfile.css"></style>
