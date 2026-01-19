@@ -6,7 +6,7 @@
     <span v-else>▶ RESUME</span>
   </button>
 
-  <transition name="fade">
+  <!-- <transition name="fade">
     <div v-if="isPaused" class="pause-overlay">
       <div class="menu-content text-center">
         <h2 class="menu-title mb-5">- GAME PAUSED -</h2>
@@ -21,7 +21,7 @@
 
       </div>
     </div>
-  </transition>
+  </transition> -->
 
 
   <!-- ================= START MENU ================= -->
@@ -770,7 +770,7 @@
 
   <!-- ================= GUEST BOOK ================= -->
   <section id="guestbook" class="py-5 min-vh-100 bg-black text-white">
-    <div class="container" v-cloak>
+    <div class="container">
       <h2 class="rpg-title text-center mb-5">GUILD SIGN-IN SHEET</h2>
 
       <div class="row justify-content-center">
@@ -840,7 +840,6 @@
   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
 
   <script src="js/vue.js"></script> -->
-
 
 </template>
 
