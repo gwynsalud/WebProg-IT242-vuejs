@@ -1,7 +1,6 @@
 <template> 
 
-<body>
-  <div id="guestbook-app">
+  <div id="guestbook-app" v-cloak>
   <button class="pause-btn" v-on:click="togglePause">
     <span v-if="!isPaused">〓 PAUSE</span>
     <span v-else>▶ RESUME</span>
@@ -842,7 +841,6 @@
 
   <script src="js/vue.js"></script>
 
-</body>
 
 </template>
 
