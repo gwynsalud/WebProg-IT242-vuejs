@@ -1,6 +1,6 @@
 <template> 
 
-  <div id="guestbook-app" v-cloak>
+  <div id="profile-container">
   <button class="pause-btn" v-on:click="togglePause">
     <span v-if="!isPaused">〓 PAUSE</span>
     <span v-else>▶ RESUME</span>
@@ -830,20 +830,39 @@
 
   </div>
 
-  <!-- Bootstrap JS Bundle -->
+  <!-- Bootstrap JS Bundle
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
 
   <!-- Firebase SDKs -->
-  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
 
-  <script src="js/vue.js"></script>
+  <script src="js/vue.js"></script> -->
 
 
 </template>
 
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      isPaused: false
+    }
+  },
+  methods: {
+    togglePause() {
+      this.isPaused = !this.isPaused;
+    }
+  }
+}
+</script>
 
-<style src="./css/style.css"></style>
+<style>
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import "./css/PersonalProfile.css";
+
+/* Add your .fade-enter-active transitions here too! */
+</style>
