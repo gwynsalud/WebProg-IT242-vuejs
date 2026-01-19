@@ -217,7 +217,7 @@
         </div>
 
         <div class="inventory-container">
-          <h3 class="inventory-title">CONTACTS</h4>
+          <h3 class="inventory-title">CONTACTS</h3>
           
           <div class="inventory-grid">
             <a href="mailto:gcsalud@student.apc.edu.ph" class="inventory-slot" title="EMAIL">
