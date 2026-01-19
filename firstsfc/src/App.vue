@@ -1,6 +1,6 @@
 <template>
   <h1>Fruits</h1>
-  <profile/>
+  <my-profile/>
   <food-item/>
   <food-item2/>
 </template>

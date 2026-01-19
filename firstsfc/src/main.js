@@ -8,5 +8,5 @@ import Profile from './components/Profile.vue'
 const app = createApp(App)
 app.component('food-item', FoodItem)
 app.component('food-item2', FoodItem2)
-app.component('profile', Profile)
+app.component('my-profile', Profile)
 app.mount('#app')

@@ -1,7 +1,7 @@
 <template> 
 
 <body>
-  <div id="guestbook-app" v-cloak>
+  <div id="guestbook-app">
   <button class="pause-btn" v-on:click="togglePause">
     <span v-if="!isPaused">〓 PAUSE</span>
     <span v-else>▶ RESUME</span>
