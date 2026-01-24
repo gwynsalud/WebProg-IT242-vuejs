@@ -1,17 +1,21 @@
-<template>
-  <h1>Fruits</h1>
-  <my-profile/>
-  <food-item/>
-  <food-item2/>
-</template>
+<script setup>
+import { ref, onMounted } from 'vue'
+import { supabase } from './lib/supabaseClient'
 
-<script></script>
+const instruments = ref([])
 
-<style>
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-.pixel-text {
-  font-family: 'Press Start 2P', cursive;
+async function getInstruments() {
+  const { data } = await supabase.from('instruments').select()
+  instruments.value = data
 }
-</style>
+
+onMounted(() => {
+   getInstruments()
+})
+</script>
+
+<template>
+  <ul>
+    <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
+  </ul>
+</template>
