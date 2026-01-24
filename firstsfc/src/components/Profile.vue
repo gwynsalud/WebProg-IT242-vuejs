@@ -1,5 +1,4 @@
 <template> 
-<h1 style="color: red !important; background: yellow;">TESTING IF PROFILE RENDERS</h1>
   <div id="profile-container">
   <!-- <button class="pause-btn" v-on:click="togglePause">
     <span v-if="!isPaused">〓 PAUSE</span>
