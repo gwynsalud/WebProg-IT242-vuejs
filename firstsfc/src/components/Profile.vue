@@ -844,18 +844,18 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      isPaused: false
-    }
-  },
-  methods: {
-    togglePause() {
-      this.isPaused = !this.isPaused;
-    }
-  }
-}
+// export default {
+//   data() {
+//     return {
+//       isPaused: false
+//     }
+//   },
+//   methods: {
+//     togglePause() {
+//       this.isPaused = !this.isPaused;
+//     }
+//   }
+// }
 </script>
 
 <style>
