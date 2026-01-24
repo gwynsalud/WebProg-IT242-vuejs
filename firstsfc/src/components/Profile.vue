@@ -1,10 +1,9 @@
 <template> 
-<h1 style="color: red !important; background: yellow;">TESTING IF PROFILE RENDERS</h1>
   <div id="profile-container">
-  <button class="pause-btn" v-on:click="togglePause">
+  <!-- <button class="pause-btn" v-on:click="togglePause">
     <span v-if="!isPaused">〓 PAUSE</span>
     <span v-else>▶ RESUME</span>
-  </button>
+  </button> -->
 
   <!-- <transition name="fade">
     <div v-if="isPaused" class="pause-overlay">
@@ -769,7 +768,7 @@
   
 
   <!-- ================= GUEST BOOK ================= -->
-  <section id="guestbook" class="py-5 min-vh-100 bg-black text-white">
+  <!-- <section id="guestbook" class="py-5 min-vh-100 bg-black text-white">
     <div class="container">
       <h2 class="rpg-title text-center mb-5">GUILD SIGN-IN SHEET</h2>
 
@@ -818,15 +817,15 @@
         </div>
       </div>
     </div>
-  </section> 
+  </section>  -->
 
   <!-- SPAWN ANCHOR BUTTON-->
-  <div id="scroll-to-top" class="spawn-anchor">
+  <!-- <div id="scroll-to-top" class="spawn-anchor">
       <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="rpg-btn-scroll">
         <span class="scroll-icon">📜</span>
         <span class="scroll-text">RETURN TO SPAWN</span>
       </button>
-  </div>
+  </div> -->
 
   </div>
 
@@ -844,18 +843,18 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      isPaused: false
-    }
-  },
-  methods: {
-    togglePause() {
-      this.isPaused = !this.isPaused;
-    }
-  }
-}
+// export default {
+//   data() {
+//     return {
+//       isPaused: false
+//     }
+//   },
+//   methods: {
+//     togglePause() {
+//       this.isPaused = !this.isPaused;
+//     }
+//   }
+// }
 </script>
 
 <style>
