@@ -1,7 +1,7 @@
 <template>
   <h1>Food</h1>
   <food-item/>
-  <profile/>
+  <my-profile/>
   <comment-form/>
   <comment/>
   
